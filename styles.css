@@ -1,0 +1,146 @@
+#body
+{
+    background-color: #19191a;
+    color: white;
+    font-family: VK Sans Display,-apple-system,system-ui,Helvetica Neue,Roboto,sans-serif;
+}
+
+.main_form
+{
+    display: flex;
+    flex-direction: column; 
+   
+    padding: 1%;
+   
+}
+
+.siders
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.left_side
+{
+    width: 50%;
+    color: wheat;
+}
+
+.right_side
+{
+    display: flex;
+    flex-direction: column; 
+    width: 50%;   
+}
+.vk_id
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+.text_id
+{
+    height: 20px;
+    padding-top: 3px;
+}
+.vkc__ContentHeader__logo {
+    color: var(--azure_A100);
+  }
+
+.autorization
+{
+    font-size: 21px;
+    text-align: center;
+}
+
+#your_num
+{
+    text-align: center;
+    margin-top: 12px;
+    color: gray;
+    font-weight: 400;
+    font-size: var(--vkui--font_headline1--font_size--regular,16px);
+}
+article
+{
+    flex: 1;
+}
+ input
+ {
+    box-shadow: 0 0 1px 0 gray;
+    background-color: #232325;
+
+    width: 100%;
+    height: 36px;
+    border: 1px solid var(--field_border);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 0 15px 0;
+    padding: 0 42px 0 12px;
+    color: var(--text_primary);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.33;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: VK Sans Display,-apple-system,system-ui,Helvetica Neue,Roboto,sans-serif;
+  }
+
+  input:focus
+  {
+    border-color: blue;
+  }
+ 
+
+button
+{
+    box-shadow: 0 0 1px 0 gray;
+    background-color: white;
+    text-overflow: ellipsis;
+    width: 100%;
+    height: 36px;
+    border: 1px solid var(--field_border);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 10px 0 15px 0;
+    color: #19191a;
+    font-size: 15px;
+    font-weight: var(--vkui--font_weight_accent2,500);
+    line-height: 1.33;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: VK Sans Display,-apple-system,system-ui,Helvetica Neue,Roboto,sans-serif;
+}
+.empty_block
+    {
+        height: 400px;
+    }
+@media (max-width: 900px)
+{
+    .left_side
+    {
+        display: none;
+        
+    }  
+    .right_side
+    {
+        align-items: center;
+        width: 90%;
+    }
+
+    
+}
